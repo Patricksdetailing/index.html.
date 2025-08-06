@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick’s Detailing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; scroll-behavior: smooth; }
+    header { background: #1c1c1c; color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .section { padding: 40px 20px; text-align: center; }
+    .cta-buttons a, .button {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .promo { background: #ffe58f; padding: 20px; font-size: 1.2em; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+    .gallery img { width: 100%; max-width: 300px; border-radius: 10px; }
+    .testimonials { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .testimonial { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 300px; }
+    .testimonial img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+    form { max-width: 400px; margin: auto; display: flex; flex-direction: column; }
+    input, textarea { margin-bottom: 15px; padding: 10px; font-size: 1em; }
+    input[type="submit"] { background: #28a745; color: white; border: none; cursor: pointer; }
+    input[type="submit"]:hover { background: #218838; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Patrick’s Detailing</h1>
+  <p>Mobile Car Detailing Services</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#booking">Book</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="section" id="home">
+  <h2>Welcome to Patrick’s Detailing</h2>
+  <p>We bring the shine to you – wherever you are.</p>
+  <div class="cta-buttons">
+    <a href="tel:+1234567890">📞 Call Now</a>
+    <a href="#booking">📅 Book an Appointment</a>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Patrick’s Detailing is a mobile car detailing service dedicated to making your vehicle shine – wherever you are.
+     We pride ourselves on convenience, quality, and excellent customer service. Whether you're at home or at work,
+     we come to you with everything needed to make your car look brand new.</p>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <ul style="list-style: none; padding: 0;">
+    <li>🧽 Basic Exterior Wash</li>
+    <li>🪞 Full Interior Detailing</li>
+    <li>🚿 Engine Bay Cleaning</li>
+    <li>✨ Ceramic Coating & Wax</li>
+    <li>💺 Upholstery Shampoo & Stain Removal</li>
+    <li>🌟 Headlight Restoration</li>
+  </ul>
+</section>
+
+<section class="section promo">
+  💥 Book today and get 10% off your first detail!
+</section>
+
+<section class="section" id="gallery">
+  <h2>Gallery</h2>
+  <p>Upload your own before & after detailing images here.</p>
+  <div class="gallery">
+    <!-- Replace with your own images -->
+    <img src="https://via.placeholder.com/300x200?text=Before+Photo" alt="Before">
+    <img src="https://via.placeholder.com/300x200?text=After+Photo" alt="After">
+    <img src="https://via.placeholder.com/300x200?text=Interior+Cleaned" alt="Interior">
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <h2>Customer Reviews</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <img src="https://via.placeholder.com/60" alt="Customer 1">
+      <p>"Best detailing service I’ve ever had!"</p>
+      <p><strong>– Alex G.</strong></p>
+    </div>
+    <div class="testimonial">
+      <img src="https://via.placeholder.com/60" alt="Customer 2">
+      <p>"Very friendly and professional. Highly recommend."</p>
+      <p><strong>– Mia R.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="booking">
+  <h2>Book an Appointment</h2>
+  <p>Use our free booking form below (Google Form or Tally.so):</p>
+  <iframe src="https://tally.so/r/yourformlink" width="100%" height="600" frameborder="0" title="Booking Form"></iframe>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="email" placeholder="Email Address (Optional)">
+    <textarea placeholder="Message or Booking Details" required></textarea>
+    <input type="submit" value="Send Message">
+  </form>
+</section>
+
+</body>
+</html>
